@@ -1,3 +1,22 @@
+how to build & install this driver:
+
+sudo apt update
+sudo apt install meson
+sudo apt install libgusb-dev
+sudo apt install libpixman-1-dev
+sudo apt install libcairo2-dev
+sudo apt install libnss3-dev
+sudo apt install libssl-dev
+
+sudo apt install gobject-introspection
+sudo apt install gtk-doc-tools
+sudo apt install valgrind
+
+sudo apt install libgirepository1.0-dev
+
+meson libfprint libfprint/_build 
+sudo ninja -C libfprint/_build install
+
 ## Validity Sensor `138a:0090` and `138a:0097` libfprint driver
 #### A linux driver for 2016 ThinkPad's fingerprint readers
 
