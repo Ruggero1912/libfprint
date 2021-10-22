@@ -2,6 +2,9 @@
 #### Dependencies:
 ```
 sudo apt update
+
+sudo apt-get install python3 python3-pip python3-setuptools python3-wheel ninja-build
+
 sudo apt install meson
 sudo apt install libgusb-dev
 sudo apt install libpixman-1-dev
